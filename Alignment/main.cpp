@@ -108,7 +108,7 @@ int main(int argc, char **argv)
 
                 string show = itr1->first + "-" + itr2->first + " " + cnt1_str + "-" + cnt2_str + "               ";
 
-                cout << show << '\r' << std::flush;
+                // cout << show << '\r' << std::flush;
 
                 //                load the seqences
                 Dna5String seqH = itr1->second;
